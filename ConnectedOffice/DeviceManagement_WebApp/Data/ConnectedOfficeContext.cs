@@ -18,6 +18,7 @@ namespace DeviceManagement_WebApp.Data
         public ConnectedOfficeContext(DbContextOptions<ConnectedOfficeContext> options)
             : base(options)
         {
+
         }
 
         public virtual DbSet<Category> Category { get; set; }
